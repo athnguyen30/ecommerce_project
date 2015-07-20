@@ -13,4 +13,9 @@ class Index extends CI_Controller {
 	{
 		$this->load->view('category');
 	}
+
+	public function orders()
+	{
+		$this->load->view('orders'); 
+	}
 }
